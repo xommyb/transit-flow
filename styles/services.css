@@ -860,6 +860,11 @@
   padding-inline: clamp(12px, 5.1vw, 98px);
 }
 
+.nav-link hr {
+  height: 20px;
+  opacity: 0.2;
+}
+
 .pinline-14px {
   padding-inline: 14px;
 }
