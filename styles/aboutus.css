@@ -1,0 +1,309 @@
+.about{
+      background-image: linear-gradient(90.93deg, #032D5F 18.18%, rgba(9, 18, 66, 0.2) 64.92%),url(../images/about-here.png);
+    /* background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    height:497px;
+  }
+
+  .overview-box{
+    display: flex;
+    gap:14px;
+  }
+
+  .box{
+    padding-block: 16px;
+   background: #F4F4F4;;
+    padding-inline: clamp(10px, 2vw, 38px);
+    
+  }
+
+  .box h4{
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 600;
+    font-size: clamp(16px,0.9vw, 21px);
+    line-height: 151.52%;
+    color: #1C1F35;
+    white-space: nowrap;
+  }
+
+  /* Logistics Section */
+  .logistics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 904px; */
+    background: #F4F4F4;
+  }
+
+  .logistics-inner-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3.4rem;
+  }
+
+  .logistics-services{
+    min-width: 1201px;
+    display: flex;
+    flex-direction: column;
+    gap: 3.3rem;
+  }
+
+  .logistics-box-container{
+    display: flex;
+    flex-direction: column;
+    gap:1.37rem;
+  }
+
+  .logistics-box{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+  }
+  .logistics-box h3{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(15px,1.3vw,25px);
+    line-height: 30px;
+    color: #1C1F35;
+    }
+
+.logistics-box p{
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(12px, 0.8vw, 16px);
+    line-height: 24px;
+    color: #666C89;
+    }
+
+
+
+   .logistics-btn{
+    background: #091242; 
+    color: #ffffff; 
+    align-self: center
+   }
+
+    /* Pricing Section */
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     
+      }
+
+      .inner-container{
+        display: flex;
+        flex-direction: column;
+      }
+
+      .pricing{
+        gap: 4rem;
+      }
+
+      .pricing-body{
+        display: flex;
+        gap: 1.8rem;
+        flex-wrap: wrap;
+      }
+
+      .price-box{
+        display: flex;
+        flex-direction: column;
+        gap: 3.1rem;
+        flex:1;
+        align-items: center;
+        justify-content: center;
+        background: #F4F4F4;
+        min-width: 230px;
+        margin-inline: 1rem;
+        padding-block:clamp(33px,3.75vw,63px);
+        padding-inline: clamp(28px,2.6vw,52px)
+      }
+
+
+      .flex-col{
+        display: flex;
+        flex-direction: column;
+      }
+
+
+      .row1-price{
+        display: flex;
+        flex-direction: column;
+        gap:2.37rem;
+        align-items: center;
+      }
+
+      .row1-price h3{
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: clamp(16px,1.56vw,32px);
+        line-height: 36px;
+        color: #1C1F35;
+
+      }
+
+      .row1-price h2{
+          font-family: 'Rubik';
+          font-style: normal;
+          font-weight: 500;
+          font-size: clamp(45px,4.4vw,85px);
+          line-height: 101px;
+          color: #1C1F35;
+      }
+
+      .row2-price span{
+        border-top:1px solid #D6D6D6;
+        padding-top: 17px;
+        padding-bottom:19px;
+        display: flex;
+         align-items: center;
+         justify-content: center;
+
+      }
+      .row2-price h4{
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: clamp(16px, 1.0vw,22px);
+        line-height: 24px;
+        color: #1C1F35;
+      }
+
+      .price-span{
+      font-family: 'Rubik';
+      font-style: normal;
+      font-weight: 400;
+      font-size: clamp(13px, 6vw, 24px);
+      line-height: 26px;
+      color: #1C1F35;
+
+      }
+
+       /* FAQ Section */
+       .faq-container{
+        /* height:739px; */
+        background: #F4F4F4;
+        justify-content: end;
+       }
+
+
+      .faq{
+        width: 81%;
+        display: flex;
+        gap: 4.4rem;
+      }
+
+      /* .container-head-h3{
+        align-self: flex-start; 
+        text-align: left; 
+        max-width: 308px;
+      } */
+
+      .faq-body{
+       gap:2.7rem
+      }
+
+      .faq-body-top{
+        gap:1.12rem;
+      }
+
+      .rubik20-h{
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: clamp(16px, 1.0vw, 22px);
+        line-height: 24px;
+        color: #1C1F35;
+        }
+  
+
+       .krub16-p{
+        font-family: 'Krub';
+        font-style: normal;
+        font-weight: 500;
+        font-size: clamp(14px,0.8vw,18px);
+        line-height: 24px;
+        color: #666C89;
+       }
+
+       .faquestion{
+        display: flex;
+        justify-content: space-between;
+       }
+       
+       .faq-left{
+        gap:3.1rem;
+        flex: 1;
+       }
+
+       .faq-right{
+        flex: 1;
+        background-image: url(/images/faq-img.png);
+        background-size: cover;
+       background-repeat: no-repeat;
+       display: flex;
+       align-items: center;
+
+
+       }
+
+       .faq-right figure{
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        gap: 23px;
+        flex-direction: column;
+        background: #091242;
+        padding-block:clamp(29px,2.7vw,54px) ;
+        padding-inline:clamp(35px,3.2rem,62px);
+        width: 90%;
+        height: 70%;
+        margin-left: -15%;
+       }
+
+       .consultation{
+        gap: 26px;
+       }
+
+       .consultation h3{
+        font-weight: 500;
+        max-width: 324px;
+        color: #ffffff;
+        align-items: flex-start;
+       }
+       
+       .consultation-text{
+        gap: 21px;
+       }
+
+       .faq-contact{
+        display: flex;
+        gap: 14px;
+        align-items: center;
+       }
+
+       .faq-contact p{
+        color: #ffffff;
+        max-width: 153px;
+       }
+
+
+       /* Client Logo */
+       .client{
+        height: 395px;
+       }
+
+       .client-fig{
+        border-block: 1px solid #4E5683;
+        border-right: 1px solid #4E5683;;
+       }
+
+       /* .client-fig img{
+        object-fit: cover;
+       } */
