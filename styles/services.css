@@ -1381,6 +1381,12 @@
   }
 } */
 
+@media (max-width: 1043px) {
+  .mq-none-1043 {
+    display: none;
+  }
+}
+
 @media (max-width: 965px) {
   .m-grid-col-1093 div {
     /* padding-left: 0 !important; */
