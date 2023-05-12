@@ -27,7 +27,9 @@
   display: block !important;
   }
 
-
+.hamburger {
+  cursor: pointer;
+}
 
 
 .navigation-top {
@@ -398,7 +400,7 @@
 }
 .sea-text h3 {
   font-family: "Rubik";
-  font-weight: 400;
+  font-weight: 500;
   font-size: clamp(12px, 1.3vw, 27px);
   color: #1c1f35;
 }

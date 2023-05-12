@@ -81,13 +81,28 @@
             </div>
           </div>
 
-          <div class="none mq-block-746 mq-block-994">
-            <span
-              class="iconify"
-              data-icon="charm:menu-hamburger"
-              style="color: #f6b426"
-              data-width="30"
-            ></span>
+          <!-- Hamburger -->
+          <div class="hamburger">
+
+            <div class="bar"></div>
+            
+            </div>
+            
+            <div class="mobile-nav">
+            
+            <ol>
+            
+            <li><a href="./index.html">Home</a></li>
+            
+            <li><a href="./aboutus.html">About</a></li>
+            
+            <li><a href="./services.html">Pages</a></li>
+
+            <li><a href="./our-projects.html">Project</a></li>
+            <li><a href="./contact-us.html">Contact us</a></li>
+            
+          </ol>
+            
           </div>
         </div>
       </nav>
@@ -102,54 +117,88 @@
         <nav
           class="gap-30 m-0[auto] flex justify-spacebetween w-70vw pinline-1.5rem mq-flex-none-944"
         >
-          <ul class="flex gap-2 align-center list-style-none">
-            <li class="h-100 flex align-self-center">
-              <a
-                class="font-0.8vw font-krub text-deco weight-600 color-white"
-                href="/"
-                >Home</a
-              >
+        <ul class="flex gap-2 align-center list-style-none">
+          <li class="active h-100 flex align-self-center">
+            <a
+              class="font-0.8vw font-krub text-deco weight-600 color-white"
+              href="/"
+              >Home</a
+            >
+          </li>
+          <hr>
+          <li class=" h-100 flex align-self-center">
+            <a
+              class="font-0.8vw font-krub text-deco weight-600 color-white"
+              href="/aboutus.html"
+              >About</a
+            >
+          </li>
+          <hr>
+          <li style="position: relative;" class="page-and-drop-down">
+            <a href="" class="pages" style="display: flex; color: white; align-items: center">Pages <span
+                class="iconify"
+                data-icon="ic:outline-keyboard-arrow-down"
+                style="color: white"
+                data-width="24"
+              ></span>
+            <!-- <img src="../images/drop-down-icon.png" alt=""> -->
+            
+            </a>
+            
+            <div style="position: absolute; top: 60%; left: 70%; clip-path: polygon(50% 0, 100% 100%, 0 100%); z-index: 2; width: 20px; height: 20px; transform: translateY(0%); background-color: #091242;" class="dropdown-menu"></div>
+            
+            <div class="dropdown-menu" style="position: absolute; z-index: 1;left: -60%; top: 80%;">
+            <ul style="width: 150px; list-style-type: none; vertical-align: middle; background-color: #091242; display: flex; gap: 30px; flex-direction: column; color: #ffffff; justify-content: center; text-align: left; gap: clamp(8px,0.6vw,10px); padding-block: clamp(10px,0.9vw,14px); position: relative;padding-left: 20px;">
+            
+            
+            <li style="list-style-type: none;" style="margin: 0;">
+            <a href="/our-team.html" style="text-decoration: none"><span style="font-family: 'Rubik'; color: #ffffff; font-weight: 400; letter-spacing: 1px; font-size: clamp(12px,0.9vw,15px); padding-top: 5px"> Our Team</span></a>
             </li>
-            <hr>
-            <li class=" h-100 flex align-self-center">
-              <a
-                class="font-0.8vw font-krub text-deco weight-600 color-white"
-                href="/aboutus.html"
-                >About</a
-              >
+            <li style="margin: 0;">
+            <a href="/blog.html" style="font-family: 'Rubik'; color: #ffffff; font-weight: 400; letter-spacing: 1px; font-size: clamp(12px,0.9vw,15px); padding-top: 5px">Blog</span></a>
             </li>
-            <hr>
-            <li class="active h-100 flex align-self-center">
-              <a
-                class="flex align-center font-0.8vw font-krub text-deco weight-600 color-white"
-                href=""
-                >Pages
-                <span
-                  class="iconify"
-                  data-icon="ic:outline-keyboard-arrow-down"
-                  style="color: white"
-                  data-width="24"
-                ></span
-              ></a>
+            <li style="margin: 0;">
+            <a href="/how-tech-blog.html" aria-current="page" style="text-decoration: none"><span style="font-family: 'Rubik'; color: #ffffff; font-weight: 400; letter-spacing: 1px; font-size: clamp(12px,0.9vw,15px); padding-top: 5px">Blog Single</span></a>
             </li>
-            <hr>
+            <li style="margin: 0;">
+            <a href="/pricing.html" style="font-family: 'Rubik'; color: #ffffff; font-weight: 400; letter-spacing: 1px; font-size: clamp(12px,0.9vw,15px); padding-top: 5px">Pricing</span></a>
+            </li>
+            
+            <li style="margin: 0;">
+            <a href="/change-log.html" style="font-family: 'Rubik'; color: #ffffff; font-weight: 400; letter-spacing: 1px; font-size: clamp(12px,0.9vw,15px); padding-top: 5px">Changelog</span></a>
+            </li>
+            
+            <li style="margin: 0;">
+            <a href="/licenses.html" style="font-family: 'Rubik'; color: #ffffff; font-weight: 400; letter-spacing: 1px; font-size: clamp(12px,0.9vw,15px); padding-top: 5px">Licenses</span></a>
+            </li>
+            <li style="margin: 0;">
+            <a href="/protection.html" style="font-family: 'Rubik'; color: #ffffff; font-weight: 400; letter-spacing: 1px; font-size: clamp(12px,0.9vw,15px); padding-top: 5px">Protected</span></a>
+            </li>
+            <li style="margin: 0;">
+            <a href="/404.html" style="font-family: 'Rubik'; color: #ffffff; font-weight: 400; letter-spacing: 1px; font-size: clamp(12px,0.9vw,15px); padding-top: 5px">Not Found</span></a>
+            </li>
+            
+            </ul>
+            </div>
+            </li>
+          <hr>
 
-            <li class="h-100 flex align-self-center">
-              <a
-                class="font-0.8vw font-krub text-deco weight-600 color-white"
-                href=""
-                >Project</a
-              >
-            </li>
-            <hr>
-            <li class="h-100 flex align-self-center">
-              <a
-                class="font-0.8vw font-krub text-deco weight-600 color-white"
-                href=""
-                >Contact</a
-              >
-            </li>
-          </ul>
+          <li class="h-100 flex align-self-center">
+            <a
+              class="font-0.8vw font-krub text-deco weight-600 color-white"
+              href="/our-projects.html"
+              >Project</a
+            >
+          </li>
+          <hr>
+          <li class="h-100 flex align-self-center">
+            <a
+              class="font-0.8vw font-krub text-deco weight-600 color-white"
+              href="/contact-us.html"
+              >Contact</a
+            >
+          </li>
+        </ul>
 
           <div class="flex align-center gap-2">
             <span
@@ -503,5 +552,6 @@
           </div>
         </section>
     </footer>
+    <script src="./app.js"></script>
   </body>
 </html>
