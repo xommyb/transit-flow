@@ -1335,6 +1335,11 @@ a {
 }
 
 /* Footer Section */
+
+button{
+  border: none;
+}
+
 .footer-container{
   background: #091242;
   color: #ffffff;
