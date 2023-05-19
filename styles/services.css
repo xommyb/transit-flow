@@ -1343,9 +1343,6 @@
 /* Media Querries */
 
 @media (max-width: 1121px) {
-  .mq-block-1121px {
-    /* display: block */
-  }
 
   .mq-m-inline-1121px {
     margin-inline: 1.5rem;
@@ -1567,6 +1564,10 @@
 
   .mq-pinline-600{
     padding-inline: 1rem;
+  }
+
+  .mq-pblock-600{
+    padding-block: 2rem;
   }
 }
 
